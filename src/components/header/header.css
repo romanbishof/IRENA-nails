@@ -1,22 +1,24 @@
 .header {
   display: flex;
+  justify-content: center;
   width: 100%;
 }
 
 .header__bg {
-  position: absolute;
-  width: 450px;
-  height: 1000px;
-  background-color: #2e2d2d;
-  z-index: 1;
+  /* position: absolute; */
+  /* width: 450px;
+  height: 1000px; */
+  /* background-color: #2e2d2d; */
+  /* z-index: 1; */
 }
 
 .header__wrapper {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  z-index: 2;
+  z-index: 1;
   align-items: center;
   padding: 50px 15px;
+  margin-top: 50px;
 }
 
 .header__img img {

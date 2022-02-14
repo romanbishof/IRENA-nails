@@ -1,0 +1,39 @@
+.subComponent {
+  text-align: center;
+  font-family: var(--font-family);
+  padding: 0 15px 30px 15px;
+}
+
+.subComponent__img {
+  border-radius: 50%;
+  border: #404040 solid 1px;
+  width: 210px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subComponent__img img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+.subComponent h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-bottom: 5px;
+  color: #2e2d2d;
+  padding-top: 30px;
+}
+
+.subComponent p {
+  font-weight: 400;
+  color: #2e2d2d;
+  font-size: 17px;
+  line-height: 24px;
+  width: 200px;
+}

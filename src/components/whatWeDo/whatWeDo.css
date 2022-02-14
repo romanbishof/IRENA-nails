@@ -1,0 +1,32 @@
+.whatWeDo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 90px;
+  background-color: white;
+}
+
+.whatWeDo__title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.whatWeDo__title h1 {
+  font-size: 45px;
+  color: #2e2d2d;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.whatWeDo__work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.whatWeDo__endRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
